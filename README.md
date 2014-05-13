@@ -34,7 +34,7 @@ jasmine-jquery provides following custom matchers (in alphabetical order):
 - `toBeInDOM()`
   - Check to see if the matched element is attached to the DOM
   - e.g. `expect($('#id-name')[0]).toBeInDOM()`
-  - Note: $ must return a DOM node (must pass jasmine.isDomNode function first) 
+  - Note: `$` must return a DOM node (must pass `jasmine.isDomNode` function first) 
 - `toBeMatchedBy(jQuerySelector)`
   - Check to see if the set of matched elements matches the given selector
   - e.g.  `expect($('<span></span>').addClass('js-something')).toBeMatchedBy('.js-something')`
