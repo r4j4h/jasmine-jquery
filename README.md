@@ -33,7 +33,7 @@ jasmine-jquery provides following custom matchers (in alphabetical order):
     - An ancestor element is hidden, so the element is not shown on the page.
 - `toBeInDOM()`
   - Check to see if the matched element is attached to the DOM
-  - e.g. `expect($('#id-name')[0]).toBeInDOM()
+  - e.g. `expect($('#id-name')[0]).toBeInDOM()`
   - Note: $ must return a DOM node (must pass jasmine.isDomNode function first) 
 - `toBeMatchedBy(jQuerySelector)`
   - Check to see if the set of matched elements matches the given selector
